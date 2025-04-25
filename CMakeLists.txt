@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 4.0)
+find_package(OpenGL REQUIRED)
+find_package(GLUT REQUIRED)
+add_executable(labX main.cpp)
+target_link_libraries(labX GL GLU glut)
